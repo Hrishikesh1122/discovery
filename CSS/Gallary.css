@@ -6,7 +6,9 @@
     display: flex;
     padding: 10px;
     background-color: rgb(15, 11, 11);
-    height: 250px;
+    height: 416px;
+    background-image: url('../Assets/gallary/header-background.jpg');
+    background-size: 100% 100%;
 }
 
 .logo-image{
@@ -36,36 +38,40 @@ nav ul li a{
     font-size: 15px;
 }
 
-.main{
-    background-color: rgb(15, 11, 11);
-}
-
-.row-items1{
+.row{
     display: flex;
     justify-content: center;
-    align-items: center;
+
+    
+    @media  screen and (min-width : 425px) {
+     display : flex;
+     flex-direction : column;   
+    }
 }
 
-.row-items2{
+.image{
+    height: 329.15px;
+    width: 562.4px;
+
+}
+
+.titles{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-evenly;
 }
 
-.row-items3{
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 80px;
+.title-content{
+    color: white;
+    width : 562.4px;
+    padding: 51.8px 25.9px;
+    font-size: 22px;
+    font-family: gt-sectra;
+    flex-basis: 100%;
 }
 
-.iitem{
-    width: 390px;
-    height: 200px;
-    margin: 12px;
-}
-
+/* footer  */
 .figcaption{
     margin-left: 10px;
     color: #fff;
