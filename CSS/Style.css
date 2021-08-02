@@ -18,7 +18,7 @@
 .navbar{
     width: 100%;
     align-items:center;
-    margin-top: -30px;
+    margin-top: 0px;
     justify-content: space-between;
 }
 nav{
@@ -100,8 +100,8 @@ nav ul li a{
 }
 
 .footer-logo-image {
-    height: 40.74;
-    width: 40.74;
+    height: 49px;
+    width: 49px;
 }
 
 li{
