@@ -2,6 +2,8 @@
     margin : 0;
     padding: 0;
 }
+
+/* header with the text in video  */
 .header{
     display: flex;
     padding: 10px;  
@@ -58,22 +60,142 @@ nav ul li a{
     color: white;
     font-size: 20px;
 }
+
+/* man-image section  */
+.man-image-section {
+    margin-top: 9cm;
+}
+
+.man-image {
+    width: 507px;
+    height: 329px;
+    margin-left: 0.7cm;
+    margin-top: 2.5cm;
+}
+
+.slogan-2{
+    margin-left: 2cm;
+}
+
+.slogan-2 h1 {
+    font-size: 47px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.paragraph {
+    margin-left: 2cm;
+    margin-top: 1cm;
+    margin-right: 25cm;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: sans-serif;
+}
+.kayak-image-div{
+    padding-top: 0cm;
+}
+.kayaks-image{
+    width: 517px;
+    height: 673px;
+    margin-left: 20cm;
+    margin-right: 3cm;
+}
+/* text and button section  */
+
+.above-marquee{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 400px;
+    margin-left: 250px;
+    gap: 15cm;
+}
+.text-lines h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    background-color: white;
+    border: 50px solid blac;
+    color : solid black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: teal;
+}
+
+/* marquee effect  */
 .marquee {
-    margin-top: 500px;
+    margin-top: 100px;
 }
 .marquee-content {
     display: grid;
     gap: 25px;
     grid-auto-flow: column;
-    animation: scrolling 10s linear infinite;
+    position: absolute;
+    overflow: hidden;
+    animation: scrolling 40s linear infinite;
 }
 
 @keyframes scrolling {
-    0% { transform: translateX(500px);}
-    100% {transform: translateX(900px);}
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -100%;
+    }
 }
 
 .image{
     height: 529px;
     width: 460px;
+}
+
+/* three image grid  */
+.grid-images {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-top: 700px;
+    
+}
+
+.grid-image {
+    height: 649px;
+    width: 506px;
+}
+
+/* footer  */
+
+.footer{
+    margin-top: 700px;
+    display: flex;
+    height: 12cm;
+    background-color: rgba(14, 19, 16, 0.911);
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+
+.footer-text{
+    color: white;
+    text-decoration :none;
+}
+
+.footer-logo{
+    align-self: left;
+}
+
+.footer-logo-image {
+    height: 49px;
+    width: 49px;
+}
+
+li{
+    list-style: none;
+    font-size: 15px;
+    margin-top: 0.9rem;
 }
