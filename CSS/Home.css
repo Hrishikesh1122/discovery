@@ -63,37 +63,36 @@ nav ul li a{
 
 /* man-image section  */
 .world{
-    margin-top: 10cm;
+    margin-top: 12cm;
     width: 100%;
     /* height: 100vh; */
     background-image: url('../Assets/Home/background-2.jpg');
 }
 .one{
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 40px;
 }
 .one-one{
+    /* margin-top: 0px; */
     width: 365px;
     height: 375px;
 }
 .txt{
     font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
+    font-size: 47px;
 }
 .para{
+    margin-top: 40px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    line-height: 25px;
-    font-weight: bold lighter;
+    font-size: 18px;
+    line-height: 32px;
 }
 .one-img{
     width: 517px;
     height: 673px
-    /* width: 365px;
-    height: 475px; */
 }
 .two{
     display: block;
@@ -102,10 +101,33 @@ nav ul li a{
 .two-img{
     width: 507px;
     height: 329px;
-    /* width: 350px;
-    height: 230px; */
-
 }
+/* moving globe section */
+.moving-globe-section{
+    margin-top: 10cm;
+    padding-top: 10cm;
+    background-color: rgb(243, 243, 243);
+}
+.text-globe {
+    margin-left: 5cm;
+}
+.slogan-3 {
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 6vh;
+}
+.para-2{
+    margin-top: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-right: 20cm;
+    line-height: 5vh;
+}
+
+.globe-image-div{
+    margin-top: 2cm;
+}
+
 /* text and buttons above marquee  */
 .above-marquee{
     display: grid;
@@ -151,7 +173,7 @@ nav ul li a{
         left: 0;
     }
     100% {
-        left: -100%;
+        right: -100%;
     }
 }
 
@@ -164,7 +186,7 @@ nav ul li a{
 .grid-images {
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-top: 700px;
+    
     
 }
 
@@ -176,7 +198,6 @@ nav ul li a{
 /* footer  */
 
 .footer{
-    /* margin-top: 700px; */
     display: flex;
     height: 12cm;
     background-color: rgba(14, 19, 16, 0.911);
