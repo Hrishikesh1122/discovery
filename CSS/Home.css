@@ -62,43 +62,43 @@ nav ul li a{
 }
 
 /* man-image section  */
-.world{
+.man-image-section{
     margin-top: 12cm;
     width: 100%;
     /* height: 100vh; */
     background-image: url('../Assets/Home/background-2.jpg');
 }
-.one{
+.text-ocean{
     margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 40px;
 }
-.one-one{
+.text-container{
     /* margin-top: 0px; */
     width: 365px;
     height: 375px;
 }
-.txt{
+.slogan-4{
     font-family: 'Open Sans', sans-serif;
     font-size: 47px;
 }
-.para{
+.para-4{
     margin-top: 40px;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 32px;
 }
-.one-img{
+.two-man-ocean-img{
     width: 517px;
     height: 673px
 }
-.two{
+.man-chair-div{
     display: block;
     padding-left: 15%;
 }
-.two-img{
+.man-chair-img{
     width: 507px;
     height: 329px;
 }
@@ -126,6 +126,77 @@ nav ul li a{
 
 .globe-image-div{
     margin-top: 2cm;
+    position: relative;
+}
+
+.black-box {
+    position: absolute;
+    background-color: rgb(46, 45, 45);
+    height: 50%;
+    width: 50%;
+    z-index: 1;
+    right: 0%;
+    top : 15%;
+}
+.arrow-buttons{
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.arrow{
+    background-color: transparent;
+    border: none;
+}
+.arroe-right{
+    margin-left: 50%;
+}
+
+.sun-wind-path{
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.weather-txt{
+    margin-top: 9px;
+    padding-right: 9px;
+    color: rgb(182, 177, 177);
+    font-size: 0.7rem;
+}
+.adress{
+    padding-top: 12%;
+    padding-left: 10%;
+}
+.adress-text{
+    font-size: 1.1rem;
+    color: rgb(173, 168, 168);
+}
+.main-adress{
+    padding-top: 3%;
+    padding-left: 10%;
+}
+.main-adress-text{
+    color: rgb(241, 239, 239);
+}
+.coordinates{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.coordinates-text{
+    font-size: 1rem;
+    color: rgb(231, 231, 231);
+}
+.black-box-image{
+    position: absolute;
+    height: 55%;
+    width: 20%;
+    z-index: 1;
+    right: 5%;
+    top : 2%;
 }
 
 /* text and buttons above marquee  */
@@ -165,15 +236,16 @@ nav ul li a{
     grid-auto-flow: column;
     position: absolute;
     overflow: hidden;
-    animation: scrolling 40s linear infinite;
+    animation: scrolling 40s linear infinite ;
 }
 
 @keyframes scrolling {
     0% {
-        left: 0;
+        transform: translate(0, 0);
     }
+
     100% {
-        right: -100%;
+        transform: translate(-50%, 0);
     }
 }
 
