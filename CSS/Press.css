@@ -1,97 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
-    margin: 0;
+    margin : 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+
 }
 
-/* header with background image and text  */
-.header{
-    position: absolute;
-    width: 100vh;
-    top: 100;
+.header-section{
+ position: absolute;
+ top: 0;
 }
-
-/* .landing-section{
+.bg-image{
     position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-text-content{
+    color: rgb(255, 255, 255) !important;
+    font-size: medium;
+}
+
+.latest-news{
+    position: relative;
+    background-color: rgb(243, 242, 242);
+}
+.latest-news-text{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.news-heading{
+    padding-left: 15%;
+    font-size: 2.5rem;
+}
+
+.latest-news-images{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.latest-news-image{
+    width: 75%;
     height: 100vh;
-    width: auto;
 }
 
-.header{
+.white-box{
+    top : 30%;
+    right: 5%;
     position: absolute;
-    width: 100vh;
-    top: 100;
-}
-.navbar{
-    width: 100%;
-    align-items:center;
-    margin-top: 0%;
-    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 35%;
 }
 
-img{
-    display: block;
-    width: 100%;
-} */
-/* nav{
-    text-align: right;
+.white-box-text{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 4%;
+.news-news{
+    font-size: 1rem;
 }
-nav ul li a{
-    text-decoration: solid;
-    color: white;
+
+.heading-para{
+    font-size: 2.5rem;
+    line-height: 120%;
+}
+
+.news-text{
+    font-size: 1rem;
+    line-height: 200%;
+}
+
+.next-page-buttons{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.page-buttons{
+    display: flex;
+    justify-content: center;
+}
+.left-button{
+    padding-right: 1%;
+}
+.right-button{
+    padding-left: 1%;
+}
+
+.press-header{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.press-header-text{
+    padding-left: 10%;
+    font-size: 2rem;
+}
+
+.press-contents{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.para-press-text{
     font-size: 1.5rem;
 }
-.logo-image{
-    margin-top: 3%;
-    margin-left: 3%;
-    height: 60px;
+
+.row-2{
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
-
-.bg-image-div{
-    position : absolute;
-   
-    top: 0;
-    z-index: -1;
-}
-
-.bg-image{
-    height: 100%;
-    width: 100%; 
-}
-
-.bg-image-text{
-    position: absolute;
-    top: 15%;
-}
-
-@media  only screen and (max-width :426px) and (min-width : 320px) {
-    
-    nav ul li a{
-        font-size: 1.2rem;
-    }
-
-    .logo-image {
-        width: 30%;
-        height: 40px;
-    }
-
-    .bg-image-div{
-        position : absolute;
-        height: 80%;
-        width: 320px;
-        top: 0;
-        z-index: -1;
-    }
-
-    .bg-image{
-        height: 100%;
-        width: 425px;
-    }
-} */

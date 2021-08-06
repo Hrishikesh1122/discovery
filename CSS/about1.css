@@ -16,7 +16,7 @@
 }
 
 .nav-text-content{
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
     font-size: medium;
 }
 
@@ -139,3 +139,4 @@
         width: 100%;
     }
 }
+
