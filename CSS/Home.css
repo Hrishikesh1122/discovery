@@ -1,0 +1,268 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+/* header with the text in video  */
+.header{
+    display: flex;
+    padding: 10px;  
+    position: relative;
+    z-index: 1;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    top : 0;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+}
+
+.slogan{
+    display: flex;
+    z-index: 1;
+    position: relative;
+    margin-top: 185px;
+    margin-left: 400px;
+}
+
+.slogan h1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.logo-image{
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 60px;
+}
+
+.navbar{
+    width: 100%;
+    align-items:center;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+nav{
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* man-image section  */
+.man-image-section{
+    margin-top: 12cm;
+    width: 100%;
+    /* height: 100vh; */
+    background-image: url('../Assets/Home/background-2.jpg');
+}
+.text-ocean{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.text-container{
+    /* margin-top: 0px; */
+    width: 365px;
+    height: 375px;
+}
+.slogan-4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 47px;
+}
+.para-4{
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+.two-man-ocean-img{
+    width: 517px;
+    height: 673px
+}
+.man-chair-div{
+    display: block;
+    padding-left: 15%;
+}
+.man-chair-img{
+    width: 507px;
+    height: 329px;
+}
+/* moving globe section */
+.moving-globe-section{
+    margin-top: 10cm;
+    padding-top: 10cm;
+    background-color: rgb(243, 243, 243);
+}
+.text-globe {
+    margin-left: 5cm;
+}
+.slogan-3 {
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 6vh;
+}
+.para-2{
+    margin-top: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-right: 20cm;
+    line-height: 5vh;
+}
+
+.globe-image-div{
+    margin-top: 2cm;
+    position: relative;
+}
+
+.black-box {
+    position: absolute;
+    background-color: rgb(46, 45, 45);
+    height: 50%;
+    width: 50%;
+    z-index: 1;
+    right: 0%;
+    top : 15%;
+}
+.arrow-buttons{
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.arrow{
+    background-color: transparent;
+    border: none;
+}
+.arroe-right{
+    margin-left: 50%;
+}
+
+.sun-wind-path{
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.weather-txt{
+    margin-top: 9px;
+    padding-right: 9px;
+    color: rgb(182, 177, 177);
+    font-size: 0.7rem;
+}
+.adress{
+    padding-top: 12%;
+    padding-left: 10%;
+}
+.adress-text{
+    font-size: 1.1rem;
+    color: rgb(173, 168, 168);
+}
+.main-adress{
+    padding-top: 3%;
+    padding-left: 10%;
+}
+.main-adress-text{
+    color: rgb(241, 239, 239);
+}
+.coordinates{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.coordinates-text{
+    font-size: 1rem;
+    color: rgb(231, 231, 231);
+}
+.black-box-image{
+    position: absolute;
+    height: 55%;
+    width: 20%;
+    z-index: 1;
+    right: 5%;
+    top : 2%;
+}
+
+/* text and buttons above marquee  */
+.above-marquee{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 4cm;
+    margin-left: 250px;
+    gap: 15cm;
+}
+.text-lines h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    background-color: white;
+    border: 50px solid blac;
+    color : solid black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: teal;
+}
+
+/* marquee effect  */
+.marquee {
+    margin-top: 100px;
+}
+.marquee-content {
+    display: grid;
+    gap: 25px;
+    grid-auto-flow: column;
+    position: absolute;
+    overflow: hidden;
+    animation: scrolling 40s linear infinite ;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-50%, 0);
+    }
+}
+
+.image{
+    height: 529px;
+    width: 460px;
+}
+
+/* three image grid  */
+.grid-images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    
+}
+
+.grid-image {
+    height: 649px;
+    width: 565px;
+}

@@ -1,0 +1,141 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header-section{
+ position: absolute;
+ top: 0;
+}
+.bg-image{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-text-content{
+    color: white !important;
+    font-size: medium;
+}
+
+.section-2{
+    padding-top: 8%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 8%;
+}
+
+.section-2-text{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-3{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.section-3-text{
+    padding-top: 15%;
+}
+
+.slogan-1{
+    font-size: 3rem;
+}
+
+.mission-para{
+    line-height: 200%;
+}
+
+.mission-para-1{
+    padding-top: 10%;
+}
+
+@media screen and (max-width:767px) {
+
+    .dad-doughter-image{
+        width: 100%;
+    }
+    .mission-para{
+        font-size: 1.2rem;
+    }
+    .shower-image{
+        width: 100%;
+    }
+}
+
+.section-4{
+    padding-top: 10%;
+}
+
+.section-4-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-5{
+    padding-top : 10%;
+    padding-left : 10%;
+    padding-right : 10%;
+    padding-bottom: 10%;
+}
+
+.slogan-2-text{
+    font-size: 2.5rem;
+}
+
+.buttons{
+    padding-left: 30%;
+}
+
+@media screen and (max-width:767px){
+    .slogan-2{
+        padding-left: 10%;
+    }
+}
+.section-7-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-8{
+    padding-top: 10%;
+    padding-left : 10%;
+    padding-right : 5%;
+}
+
+.section-8-text{
+    padding-top: 8%;
+}
+
+.heading-8-para{
+    padding-top: 3%;
+    line-height: 200%;
+    padding-right: 30%; ;
+}
+
+.heading-8-image{
+    padding-top: 20%;
+}
+
+.section-9{
+    padding-top: 10%;
+
+}
+
+.section-9-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:767px) {
+
+    .shower-image{
+        width: 100%;
+    }
+}

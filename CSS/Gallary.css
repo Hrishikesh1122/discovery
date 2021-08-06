@@ -1,0 +1,109 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+.header{
+    position: relative;
+    display: flex;
+    background-color: rgb(15, 11, 11);
+    height: 100vh;
+    background-image: url('../Assets/gallary/header-background.jpg');
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width : 600px){
+    .header{
+        height: 80vh;
+        width: 100vh;
+    }
+
+    .logo-image{
+        height: 30%;
+        width: 30%;
+    }
+    .navbar{
+        visibility: hidden;
+        display: none;
+    }
+}
+
+.site-logo{
+    position: absolute;
+    bottom:90%;
+}
+.logo-image{
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 60px;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    align-items:center;
+    margin-top: 0px;
+    /* left: 5%; */
+}
+nav{
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.row{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+@media  screen and (max-width : 600px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }  
+    .image{
+        height: fit-content;
+        width: fit-content;
+    }  
+    footer{
+        display: none;
+    }
+}
+
+.image{
+    height: 329.15px;
+    width: 562.4px;
+
+}
+
+.titles{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.title-content{
+    color: white;
+    width : 562.4px;
+    padding: 51.8px 25.9px;
+    font-size: 22px;
+    font-family: gt-sectra;
+    flex-basis: 100%;
+}
+
+@media screen and (max-width : 600px){
+    footer {
+        visibility: hidden;
+        display: none;
+    }
+}
