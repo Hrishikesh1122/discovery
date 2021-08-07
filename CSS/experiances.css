@@ -94,3 +94,134 @@ nav ul li a{
     padding-top: 10%;
     line-height: 200%;
 }
+
+.section-4 {
+    width: 100%;
+    background-color: rgb(243,243,243);
+    padding: 5% 0;
+    overflow: hidden;
+    height: 420%;
+}
+
+.s4-container {
+    padding: 5% 0;
+}
+
+
+.section3-head {
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: 200;
+}
+.section3-para {
+    font-family: 'Work Sans', sans-serif;
+    color: #1f1f1f;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.9;
+    padding-bottom: 10%;
+}
+
+.btn-explore{
+    color: white !important;
+    border: 2px white !important;
+}
+
+.exp-image {
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    width: 78%;
+}
+
+.top-content-1 {
+    position: absolute;
+    background-color: #fff;
+    z-index: 3;
+    width: 35%;
+    padding: 7% 6%;
+    margin-left: 55%;
+    margin-top: 10%;
+}
+
+
+
+.Outdoor-image {
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    width: 78%;
+    margin-top: 57%;
+    margin-left: 22%;
+}
+
+.top-content-2 {
+    position: absolute;
+    background-color: #fff;
+    z-index: 3;
+    width: 20%;
+    padding: 7% 6%;
+    margin-top: 66%;
+    margin-left: 8%;
+}
+
+.wellness {
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    width: 78%;
+    margin-top: 115%;
+}
+
+.top-content-3{
+    position: absolute;
+    background-color: #fff;
+    z-index: 3;
+    width: 35%;
+    padding: 7% 6%;
+    margin-left: 55%;
+    margin-top: 130%;
+}
+.section-5 {
+    margin-top: 170%;
+    position: relative;
+}
+
+.sec-5-img {
+    position: relative;
+    z-index: 0;
+    overflow:hidden;
+}
+
+.sec-img {
+    margin-top: 50px;
+    opacity: 0.8;
+    width: 100%;
+    height: 80vh;
+}
+
+.sec-text-center {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 9;
+    text-align: center;
+}
+.sec-5-a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10% 30%;
+}
+
+.explore1 {
+    align-items: center;
+    margin-bottom: 50rem;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10% 20%;
+}
