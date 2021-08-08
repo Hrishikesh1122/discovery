@@ -59,13 +59,13 @@
             <h3 class="news-heading">Latest News</h3>
         </div>
         <div class="latest-news-images">
-            <img src="../Assets/Press/latest-news.jpg" alt="latest-news" class="latest-news-image">
+            <img src="../Assets/Press/latest-news.jpg" id="latest-news-image"alt="latest-news" class="latest-news-image">
         </div>
         <div class="white-box">
             <div class="white-box-text">
                 <h4 class="news-news">News</h4>
-                <p class="heading-para">Discovery's newest property in Kauai North Shore Preserve</p>
-                <p class="news-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat officiis, libero
+                <p class="heading-para" id="heading-para">Discovery's newest property in Kauai North Shore Preserve</p>
+                <p class="news-text" id="news-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat officiis, libero
                     ad commodi assumenda ipsam non laborum quam nihil, distinctio, exercitationem mollitia voluptas!
                     Quae, nemo officia quas tempore suscipit tenetur iusto molestiae blanditiis dicta quod in quia ullam
                     et quisquam quibusdam necessitatibus ea explicabo esse adipisci neque rem odio aliquid! Adipisci
@@ -75,21 +75,25 @@
         <div class="next-page-buttons">
             <div class="page-buttons">
                 <div class="left-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    <button id="news-previous-btn" onclick="previousNewsPage()" class="btn-page-change">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                         class="bi bi-arrow-left" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                     </svg>
+                    </button>
                 </div>
-                <div class="page-numbers">
+                <div class="page-numbers" id="page-numbers-news">
                     1 - 4
                 </div>
-                <div class="right-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                <div class="right-button" >
+                    <button id="news-next-button" onclick="nextNewsPage()" class="btn-page-change">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                         class="bi bi-arrow-right" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                     </svg>
+                    </button>
                 </div>
             </div>
         </div>

@@ -1,9 +1,78 @@
 console.log("script loaded")
 /* Script to change contents of Latest news section */
+var newsContents = [
+    {
+        imageSrc : "../Assets/Press/ln-im1.jpg",
+        headingPara : "Discovery's newest property in Kauai North Shore Preserve",
+        newsText : "Lorem ipsum dolor sit amet consectetur adipisicing elit Fugiat offici isli be ro"+
+        "ad co mmodi assumenda ipsam non laborum quam nihil distinctio exercitationem mollitia voluptas"+
+        "Quae nemo officia quas tempore suscipit tenetur iusto molestiae blanditiis dicta quod  quia ullam"+
+        "et quisquam quibusdam necessitatibus ea explicabo esse adipisci neque rem odio aliquid Adipisci"+
+        "placeat deleniti architecto cupiditate 1"
+    },
+    {
+        imageSrc : "../Assets/Press/ln-im2.jpg",
+        headingPara : "James Island Discover's newest property",
+        newsText : "Discovery's newest property in Kauai North Shore Preserve",
+        newsText : "Lorem ipsum dolor sit amet consectetur adipisicing elit Fugiat offici isli be ro"+
+        "ad co mmodi assumenda ipsam non laborum quam nihil distinctio exercitationem mollitia voluptas"+
+        "Quae nemo officia quas tempore suscipit tenetur iusto molestiae blanditiis dicta quod  quia ullam"+
+        "et quisquam quibusdam necessitatibus ea explicabo esse adipisci neque rem odio aliquid Adipisci"+
+        "placeat deleniti architecto cupiditate 2"
+    },
+    {
+        imageSrc : "../Assets/Press/ln-im3.jpg",
+        headingPara : "Costa Terra Discovery's 23rd property",
+        newsText : "Discovery's newest property in Kauai North Shore Preserve",
+        newsText : "Lorem ipsum dolor sit amet consectetur adipisicing elit Fugiat offici isli be ro"+
+        "ad co mmodi assumenda ipsam non laborum quam nihil distinctio exercitationem mollitia voluptas"+
+        "et quisquam quibusdam necessitatibus ea explicabo esse adipisci neque rem odio aliquid Adipisci"+
+        "placeat deleniti architecto cupiditate 3"
+    },
+    {
+        imageSrc : "../Assets/Press/ln-im4.jpg",
+        headingPara : "Troubadour To Open Golf Course Fall 2019",
+        newsText : "Discovery's newest property in Kauai North Shore Preserve",
+        newsText : "Lorem ipsum dolor sit amet consectetur adipisicing elit Fugiat offici isli be ro"+
+        "et quisquam quibusdam necessitatibus ea explicabo esse adipisci neque rem odio aliquid Adipisci"+
+        "placeat deleniti architecto cupiditate 4"
+    }
+]
 
+var currentNewsPage = 1;
+function previousNewsPage(){
+    if(currentNewsPage >= 1){
+        currentNewsPage --;
+        changeNewsPage(currentNewsPage);
+    }
+}
 
+function nextNewsPage(){
+    if(currentNewsPage <= 4){
+        currentNewsPage ++;
+        changeNewsPage(currentNewsPage);
+    }
+}
 
+function changeNewsPage(pageNews){
+    var page_numbers_news = document.getElementById("page-numbers-news");
 
+    if(pageNews < 1) {
+        pageNews = 4;
+        currentNewsPage = 4;
+    }
+    if(pageNews > 4){
+     pageNews =1 ;
+     currentNewsPage = 1;
+    }
+
+    document.getElementById("latest-news-image").src = newsContents[pageNews].imageSrc;
+    document.getElementById("heading-para").innerHTML = newsContents[pageNews].headingPara;
+    document.getElementById("news-text").innerHTML = newsContents[pageNews].newsText;
+
+    page_numbers_news.innerHTML = pageNews + " - " + 4;    
+
+}
 
 /* Script to change contents of Press section */
 var publishers = [
