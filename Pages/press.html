@@ -14,6 +14,7 @@
     <link rel="shortcut icon" href="../Assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../CSS/Press.css">
     <link rel="stylesheet" href="../CSS/Footer.css">
+   
 </head>
 
 <body>
@@ -104,13 +105,13 @@
                     <div class="col-md-6 col-lg-6 col-sm-12">
                         <p class="para-press-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, hic.
                         </p>
-                        <p class="para-press-caption"><strong>New york times | June 9,2021</strong></p>
+                        <p class="para-press-caption" id="pub1"><strong>New york times | June 9,2021</strong></p>
                         <button type="button" class="btn btn-outline-secondary btn-lg rounded-0">Read Article</button>
                     </div>
                     <div class="col-md-6 col-lg-6 col-sm-12">
                         <p class="para-press-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
                             asperiores doloremque adipisci labore perferendis? Nulla tempore in ipsam amet rerum!</p>
-                        <p class="para-press-caption"><strong>Business Insider | June 4,2021</strong></p>
+                        <p class="para-press-caption" id="pub2"><strong>Business Insider | June 4,2021</strong></p>
                         <button type="button" class="btn btn-outline-secondary btn-lg rounded-0">Read Article</button>
                     </div>
                 </div>
@@ -118,12 +119,12 @@
                     <div class="col-md-6 col-lg-6 col-sm-12">
                         <p class="para-press-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, natus.
                             Culpa, inventore perferendis.</p>
-                        <p class="para-press-caption"><strong>Luxuary magazine | Summer/Spring 2021</strong></p>
+                        <p class="para-press-caption" id="pub3"><strong>Luxuary magazine | Summer/Spring 2021</strong></p>
                         <button type="button" class="btn btn-outline-secondary btn-lg rounded-0">Read Article</button>
                     </div>
                     <div class="col-md-6 col-lg-6 col-sm-12">
                         <p class="para-press-text">Lorem ipsum dolor sit amet consectetur.</p>
-                        <p class="para-press-caption"><strong>New York Times | September 11,2020</strong></p>
+                        <p class="para-press-caption" id="pub4"><strong>New York Times | September 11,2020</strong></p>
                         <button type="button" class="btn btn-outline-secondary btn-lg rounded-0">Read Article</button>
                     </div>
                 </div>
@@ -131,28 +132,32 @@
             <div class="next-page-buttons">
                 <div class="page-buttons">
                     <div class="left-button">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        <button id="btn-left-articles " onclick="previousPage() ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                             class="bi bi-arrow-left" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                         </svg>
+                        </button>   
                     </div>
-                    <div class="page-numbers">
-                        1 - 13
+                    <div class="page-numbers" id="page-numbers">
+                        1-13
                     </div>
                     <div class="right-button">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        <button id="btn-right-articles" onclick="nextPage()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                             class="bi bi-arrow-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                         </svg>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <footer id="footer"></footer>
-    <script src="../JS/footer.js"></script>
+   
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -162,6 +167,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        <script src="../JS/Press.js"></script>
+        <script src="../JS/footer.js"></script>
 </body>
 
 </html>

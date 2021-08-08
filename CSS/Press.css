@@ -5,6 +5,11 @@
 
 }
 
+.background-container{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
 .header-section{
  position: absolute;
  top: 0;
