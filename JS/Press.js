@@ -1,5 +1,11 @@
 console.log("script loaded")
+/* Script to change contents of Latest news section */
 
+
+
+
+
+/* Script to change contents of Press section */
 var publishers = [
     {
         publisher1 : "New York Times | June 9 ,2021",
@@ -121,3 +127,4 @@ function changePage(page){
     page_numbers.innerHTML = page + " - " + 13;    
 
 }
+
