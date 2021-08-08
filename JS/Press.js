@@ -94,7 +94,6 @@ function previousPage(){
     if(current_page >= 1){
         current_page --;
         changePage(current_page);
-        console.log("previous page")
     }
 }
 
@@ -102,13 +101,10 @@ function nextPage(){
     if(current_page <= 13){
         current_page ++;
         changePage(current_page);
-        console.log("next page")
     }
 }
 
 function changePage(page){
-    // var btn_next = document.getElementById("btn-right-articles");
-    // var btn_prev = document.getElementById("btn-left-articles");
     var page_numbers = document.getElementById("page-numbers");
 
     if(page < 1) {
