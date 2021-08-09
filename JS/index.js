@@ -1,26 +1,26 @@
 var blackBoxContents = [
     {
-        imgSrc : "../Assets/Home/BlackBox/im-1.jpg",
+        imgSrc : "./Assets/Home/BlackBox/im-1.jpg",
         mainAd : "Madison",
         subAd : "La Quinta , California"
     },
     {
-        imgSrc : "../Assets/Home/BlackBox/im-2.jpg",
+        imgSrc : "./Assets/Home/BlackBox/im-2.jpg",
         mainAd : "Baker's Bay",
         subAd : "Great Guana Cay, Bahamas"
     },
     {
-        imgSrc : "../Assets/Home/BlackBox/im-3.jpg",
+        imgSrc : "./Assets/Home/BlackBox/im-3.jpg",
         mainAd : "Mountaintop",
         subAd : "Cashiers, North Carolina"
     },
     {
-        imgSrc : "../Assets/Home/BlackBox/im-4.jpg",
+        imgSrc : "./Assets/Home/BlackBox/im-4.jpg",
         mainAd : "Mirabel",
         subAd : "Scottsdale,Arizona"
     },
     {
-        imgSrc : "../Assets/Home/BlackBox/im-5.jpg",
+        imgSrc : "./Assets/Home/BlackBox/im-5.jpg",
         mainAd : "Vaquero",
         subAd : "West Lake,Texas"
     }
