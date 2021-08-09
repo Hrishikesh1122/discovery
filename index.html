@@ -88,13 +88,13 @@
             <img src="./Assets/Home/Globe-section/globe-europe.jpg" alt="globe-image" class="globe-image">
             <div class="black-box">
                 <div class="arrow-buttons">
-                    <button class="arrow arrow-right">
+                    <button class="arrow arrow-right arrow-prev" onclick="prev()">
                         <i class="bi bi-arrow-left"></i>
                         <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="white" class="bi bi-arrow-left" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
                           </svg>
                        </button>
-                    <button class="arrow">
+                    <button class="arrow arrow-next" onclick="next()">
                         <i class="bi bi-arrow-right"></i>
                         <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
@@ -125,12 +125,12 @@
                     </div>
                 </div>
                 <div class="adress">
-                    <h2 class="adress-text">
+                    <h2 class="adress-text" id="sub-ad">
                         Rio San Juan , Domnican Republic
                     </h2>
                 </div>
                 <div class="main-adress">
-                    <h1 class="main-adress-text">Palya Grande</h1>
+                    <h1 class="main-adress-text" id="main-ad">Palya Grande</h1>
                 </div>
                 <div class="coordinates">
                     <h2 class="coordinates-text">
@@ -143,7 +143,7 @@
                   
                 </div>
             </div> <!--End Black box-->
-            <img src="./Assets/Home/Globe-section/black-box-image.jpg" alt="black-box-image" class="black-box-image">
+            <img src="./Assets/Home/Globe-section/black-box-image.jpg" alt="black-box-image" class="black-box-image" id="black-box-img">
         </div>
        
     </section>
@@ -156,6 +156,7 @@
     <!-- footer  -->
     <footer id="footer"></footer>
     <script src="./JS/footer.js"></script>
+    <script src="./JS/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
