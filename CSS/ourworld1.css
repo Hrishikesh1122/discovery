@@ -1,12 +1,14 @@
 *{
     margin : 0;
     padding: 0;
+    /* background-color: rgb(34, 33, 33); */
 }
 .header{
     display: flex;
     padding: 10px;
     height: 250px;
     background-color: rgb(34, 33, 33);
+    
 }
 
 main{
@@ -52,4 +54,37 @@ figcaption{
 .row-1{
     padding-top: 3% !important;
     padding-bottom: 3% !important;
+}
+
+@media  screen and (max-width : 320px ) {
+    
+    .iitem{
+        width: 560px;
+        height: auto;
+    }
+
+    .logo-image{
+        width : 150px;
+        height: 50px;
+    }
+    
+    .navbar{
+        margin-left: 200px;
+    }
+}
+
+@media  screen  and (max-width : 768px) {
+    .navbar-tems{
+        position: relative;
+        margin-top: 50px;
+    }
+    .logo-image{
+        margin-top: 5px;
+    }
+    .nav-ul{
+        position: absolute;
+        width: 700px;
+         padding-left: 0%;
+         right: 0%;
+    }
 }
